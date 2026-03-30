@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_my_requests"
+        android:title="My Requests"
+        android:icon="@drawable/ic_notification"
+        android:showAsAction="always"/>
+    <item
+    android:id="@+id/action_my_orders"
+    android:title="My Orders"
+    android:icon="@drawable/ic_order"
+    android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_logOut"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        android:showAsAction="always"/>
+
+</menu>

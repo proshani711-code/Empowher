@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:backgroundTint="@android:color/white"
+    android:elevation="4dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/tvEditUserTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit User Details"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etEditUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="@drawable/rounded_edittext"
+        android:padding="15dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etEditUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+        android:padding="15dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etEditUserRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Role (User  / Worker / Admin)"
+        android:background="@drawable/rounded_edittext"
+        android:padding="15dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSaveUserChanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:padding="15dp"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PlaceWell</string>
+    <string-array name="user_roles">
+        <item>User</item>
+        <item>Worker</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="category_icon_desc">Category Icon</string>
+    <string name="navigate_icon_desc">Navigate</string>
+    <string name="order_id">Order: %1$s</string>
+    <string name="customer_name">Customer: %1$s</string>
+    <string name="amount">Amount: ₹%1$.2f</string>
+    <string name="status">Status: %1$s</string>
+    <string name="date">Date: %1$s</string>
+    <string name="date_not_available">Date: N/A</string>
+</resources>

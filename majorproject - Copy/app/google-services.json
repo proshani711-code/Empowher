@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "518496381448",
+    "firebase_url": "https://books-70689-default-rtdb.firebaseio.com",
+    "project_id": "books-70689",
+    "storage_bucket": "books-70689.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518496381448:android:c2ab43edc61915a9153fbd",
+        "android_client_info": {
+          "package_name": "com.example.majorproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANbVWmLu8N2X8cTUwIQin1-fklnwCvIAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
